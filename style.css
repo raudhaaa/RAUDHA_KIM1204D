@@ -1,0 +1,86 @@
+/*             navigation bar       */
+
+body {
+    height: 125vh;
+    font-family: sans-serif;
+}
+
+header h2 {
+    margin-left: 40px;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+}
+
+
+header * {
+    display: inline;
+}
+
+
+header li {
+    margin: 20px;
+}
+
+
+header li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+footer {
+    text-align:center;
+    padding: 5px;
+    background-color: white;
+    color: #000;
+}
+
+
+
+
+/*             digital clock       */
+
+body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+    }
+
+    .clock {
+      width: 30%;
+      height: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #424558;
+    }
+
+   .time {
+      font-size: 50px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .date-time {
+      font-size: 20px;
+      color: #fff;
+    }
+
+    @media screen and (max-width: 768px) {
+      .time {
+        font-size: 50px;
+      }
+
+/*              digital clock          */
